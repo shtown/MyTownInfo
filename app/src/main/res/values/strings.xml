@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mobile Applications</string>
+    <string name="act_name">My Town Info</string>
+    <string name="button1">Public Info Center</string>
+    <string name="button2">ePortal</string>
+    <string name="button3">Interactive Sales Map</string>
+    <string name="button4">Historic Map</string>
+    <string name="button5">Evacuation Zones</string>
+    <string name="desc"></string>
+    <string name="dummy_content"></string>
+
+</resources>
+ 

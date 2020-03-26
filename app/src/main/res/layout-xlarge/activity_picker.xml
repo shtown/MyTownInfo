@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+        android:background="@drawable/background"
+        android:orientation="horizontal"
+    	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+    	<LinearLayout
+    	    android:id="@+id/buttonpanel"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:gravity="center"
+    	    android:orientation="vertical" >
+
+		    <Button
+		        android:id="@+id/button1"
+		        style="@style/ButtonText"
+		        android:layout_width="fill_parent"
+    		    android:layout_height="wrap_content"
+        		android:text="@string/button1" />
+
+    		<Button
+        		android:id="@+id/button2"
+        		style="@style/ButtonText"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:text="@string/button2" />
+
+    		<Button
+        		android:id="@+id/button3"
+        		style="@style/ButtonText"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:text="@string/button3" />
+
+    		<Button
+        		android:id="@+id/button4"
+        		style="@style/ButtonText"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:text="@string/button4" />
+
+    		<Button
+        		android:id="@+id/button5"
+        		style="@style/ButtonText"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:text="@string/button5" />
+
+    		<ImageView
+        		android:id="@+id/imageView1"
+        		android:layout_width="fill_parent"
+        		android:layout_height="0dp"
+        		android:layout_weight="0.22"
+        		android:contentDescription="@string/desc"
+        		android:src="@drawable/toslogo5" />
+
+		</LinearLayout>
+</FrameLayout>
