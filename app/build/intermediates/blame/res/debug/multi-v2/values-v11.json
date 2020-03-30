@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/johndaly/Development/SouthamptonMobile/MyTownInfo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/Users/johndaly/Development/SouthamptonMobile/MyTownInfo/app/src/main/res/values-v11/styles.xml",
+                    "from": {
+                        "startLines": "8,12",
+                        "startColumns": "4,5",
+                        "startOffsets": "222,365",
+                        "endLines": "10,24",
+                        "endColumns": "12,12",
+                        "endOffsets": "356,944"
+                    },
+                    "to": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,192",
+                        "endLines": "4,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "187,771"
+                    }
+                }
+            ]
+        }
+    ]
+}

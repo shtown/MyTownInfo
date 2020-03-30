@@ -58,7 +58,7 @@ public class Picker extends Activity {
         b1.setOnClickListener(new OnClickListener()
         {
         	public void onClick(View arg0) {
-        		Intent i = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse("http://infocenter.southamptontownny.gov"));
+        		Intent i = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse("https://gis.southamptontownny.gov/infocenter"));
         		startActivity(i);
         	}
         });
@@ -76,7 +76,7 @@ public class Picker extends Activity {
         b3.setOnClickListener(new OnClickListener()
         {
         	public void onClick(View arg0) {
-        		Intent i = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse("http://sales.southamptontownny.gov"));
+        		Intent i = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse("https://gis.southamptontownny.gov/sales"));
         		startActivity(i);
         	}
         });
@@ -85,7 +85,7 @@ public class Picker extends Activity {
         b4.setOnClickListener(new OnClickListener()
         {
         	public void onClick(View arg0) {
-        		Intent i = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse("http://historic.southamptontownny.gov"));
+        		Intent i = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse("https://gis.southamptontownny.gov/historic"));
         		startActivity(i);
         	}
         });
@@ -94,7 +94,7 @@ public class Picker extends Activity {
         b5.setOnClickListener(new OnClickListener()
         {
         	public void onClick(View arg0) {
-        		Intent i = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse("http://gis2.southamptontownny.gov/evaclocator"));
+        		Intent i = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse("https://gis.southamptontownny.gov/evaclocator"));
         		startActivity(i);
         	}
         });
